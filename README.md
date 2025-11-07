@@ -209,8 +209,3 @@ Vercel
  for deployment
 
 © 2025 Darshan Chaudhari — All Rights Reserved
-
-
----
-
-Would you like me to create a **shorter GitHub profile summary (1-page version)** too — something that fits pe
