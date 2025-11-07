@@ -1,0 +1,78 @@
+[
+  {
+    "id": "xeepl-erp",
+    "title": "XEEPL ERP",
+    "description": "Engineered and deployed XEEPL ERP, a full-stack enterprise platform with Spring Boot REST APIs, React, and MySQL. Enhanced API integration, RBAC, and file management; reduced manual reporting cycles and boosted process efficiency by 35%.",
+    "tech": ["Spring Boot", "React", "MySQL", "RESTful APIs", "JWT"],
+    "image": "/images/projects/xeepl.png",
+    "github": "https://github.com/darshanchaudharii/XEEPL_ERP.git",
+    "live": null,
+    "featured": true,
+    "highlights": [
+      "Automated catalog, item, content, and quotation workflows",
+      "Implemented RBAC and secure file management",
+      "Real-time PDF generation and document handling",
+      "Boosted process efficiency by 35%"
+    ]
+  },
+  {
+    "id": "nextgen-exam",
+    "title": "NextGen Exam Portal",
+    "description": "A full-stack web application developed using Angular and Spring Boot, offering a secure, role-based platform for conducting online exams with JWT authentication and real-time result evaluation.",
+    "tech": ["Angular", "Spring Boot", "MySQL", "JWT"],
+    "image": "/images/projects/nextgen.png",
+    "github": "https://github.com/darshanchaudharii/NextGen_Exam_portal.git",
+    "live": null,
+    "highlights": [
+      "Secure JWT-based authentication",
+      "Role-based access control for admins and students",
+      "Real-time result evaluation",
+      "3-tier architecture with MySQL integration"
+    ]
+  },
+  {
+    "id": "resume-builder",
+    "title": "ResumeBuilder React WebApp",
+    "description": "A modern resume builder application with live preview, multiple templates, and PDF export functionality. Built with React and featuring a step-by-step form interface.",
+    "tech": ["React", "TypeScript", "Tailwind CSS", "PDF Generation"],
+    "image": "/images/projects/resume-builder.png",
+    "github": "https://github.com/darshanchaudharii/ResumeBuilder_React_WebApp.git",
+    "live": "https://resumeforge123.vercel.app/",
+    "highlights": [
+      "Live preview with multiple templates",
+      "Step-by-step form interface",
+      "PDF export functionality",
+      "Responsive design"
+    ]
+  },
+  {
+    "id": "job-posting",
+    "title": "Job Posting Demo",
+    "description": "A React-based job posting platform featuring job listings, detailed views, and application functionality with modern UI/UX design.",
+    "tech": ["React", "JavaScript", "CSS3"],
+    "image": "/images/projects/job-posting.png",
+    "github": "https://github.com/darshanchaudharii/job-posting.git",
+    "live": "https://job-posting-react-app.vercel.app/",
+    "highlights": [
+      "Clean job listing interface",
+      "Company profiles and detailed job views",
+      "Modern card-based design",
+      "Responsive layout"
+    ]
+  },
+  {
+    "id": "garbage-management",
+    "title": "Digital Garbage Collection Web",
+    "description": "A web-based platform for managing garbage collection efficiently. Features include reporting issues, tracking collection schedules, and monitoring garbage collection progress in real-time.",
+    "tech": ["HTML", "CSS", "JavaScript"],
+    "image": "/images/projects/garbage-management.png",
+    "github": "https://github.com/darshanchaudharii/digital_Garbage_mangaement_system.git",
+    "live": "https://darshanchaudharii.github.io/digital_Garbage_mangaement_system/",
+    "highlights": [
+      "Report garbage collection issues",
+      "Track collection schedules",
+      "Real-time progress monitoring",
+      "User-friendly interface"
+    ]
+  }
+]
