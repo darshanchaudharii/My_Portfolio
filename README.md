@@ -9,7 +9,7 @@ This portfolio showcases my professional work as a **Full Stack Developer**, fea
 
 ## 🚀 Live Demo
 
-🔗 **Portfolio URL:** [https://darshanchaudhari.vercel.app](#)  
+🔗 **Portfolio URL:** [[https://darshanchaudhari.vercel.app](https://darshanchaudharidev.vercel.app/)](#)  
 *(Replace with your live deployed link if different)*
 
 ---
