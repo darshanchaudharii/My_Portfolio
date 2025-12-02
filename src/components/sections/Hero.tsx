@@ -1,7 +1,8 @@
 import { motion } from "framer-motion";
 import { Github, Linkedin, Mail, Download, ArrowDown } from "lucide-react";
 import { Button } from "../ui/button";
-import StaggeredText from "../StaggeredText";
+import TypewriterText from "../TypewriterText";
+import GlitchText from "../GlitchText";
 
 const roles = ["Full Stack Developer", "React Specialist", "Spring Boot Expert", "Problem Solver"];
 
@@ -46,7 +47,7 @@ export const Hero = () => {
             transition={{ duration: 0.5 }}
           >
             <h1 className="text-5xl md:text-7xl font-bold mb-6">
-              Hi, I'm <span className="text-gradient">Darshan Chaudhari</span>
+              Hi, I'm <GlitchText text="Darshan Chaudhari" className="text-gradient font-bold" />
             </h1>
           </motion.div>
 
@@ -57,9 +58,9 @@ export const Hero = () => {
             className="mb-8"
           >
             <div className="flex justify-center mb-4">
-              <StaggeredText
-                text="Full Stack Developer"
-                className="text-2xl md:text-3xl text-muted-foreground justify-center font-medium"
+              <TypewriterText
+                words={roles}
+                className="text-2xl md:text-3xl text-muted-foreground font-medium inline-block text-left min-w-[280px] md:min-w-[350px]"
               />
             </div>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
