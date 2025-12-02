@@ -65,7 +65,7 @@ export const Footer = () => {
               </Button>
               <Button variant="ghost" size="icon" className="rounded-full" asChild>
                 <a
-                  href="mailto:darshanchaudhari4998@gmail.com"
+                  href="mailto:chaudharidarshan155@gmail.com"
                   aria-label="Email"
                 >
                   <Mail className="h-5 w-5" />
@@ -73,13 +73,18 @@ export const Footer = () => {
               </Button>
             </div>
             <p className="text-sm text-muted-foreground">
-              <a href="mailto:darshanchaudhari4998@gmail.com" className="hover:text-primary">
-                darshanchaudhari4998@gmail.com
+              <a href="mailto:chaudharidarshan155@gmail.com" className="hover:text-primary">
+                chaudharidarshan155@gmail.com
               </a>
             </p>
             <p className="text-sm text-muted-foreground">
               <a href="tel:+917666358663" className="hover:text-primary">
                 +91-7666358663
+              </a>
+            </p>
+            <p className="text-sm text-muted-foreground">
+              <a href="tel:+918208379723" className="hover:text-primary">
+                +91-8208379723 (Secondary)
               </a>
             </p>
           </div>

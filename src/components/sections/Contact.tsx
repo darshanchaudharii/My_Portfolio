@@ -24,13 +24,13 @@ export const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    
-    const mailtoLink = `mailto:darshanchaudhari4998@gmail.com?subject=${encodeURIComponent(
+
+    const mailtoLink = `mailto:chaudharidarshan155@gmail.com?subject=${encodeURIComponent(
       `Portfolio Contact from ${formData.name} - ${formData.subject}`
     )}&body=${encodeURIComponent(
       `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
     )}`;
-    
+
     window.location.href = mailtoLink;
     toast.success("Opening your email client...");
   };

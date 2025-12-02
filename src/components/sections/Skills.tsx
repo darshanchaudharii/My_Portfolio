@@ -1,37 +1,36 @@
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { Badge } from "../ui/badge";
 
 const skillsData = {
   "Languages & Frameworks": [
-    { name: "Java", color: "bg-orange-500" },
-    { name: "JavaScript", color: "bg-yellow-500" },
-    { name: "TypeScript", color: "bg-blue-600" },
-    { name: "React", color: "bg-cyan-500" },
-    { name: "Spring Boot", color: "bg-green-600" },
-    { name: "Spring MVC", color: "bg-green-500" },
-    { name: "Hibernate", color: "bg-amber-700" },
-    { name: "JWT", color: "bg-pink-500" },
+    "Java",
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Spring Boot",
+    "Spring MVC",
+    "Hibernate",
+    "JWT",
   ],
   "Frontend Technologies": [
-    { name: "HTML5", color: "bg-orange-600" },
-    { name: "CSS3", color: "bg-blue-500" },
-    { name: "Tailwind CSS", color: "bg-cyan-400" },
-    { name: "Angular", color: "bg-red-600" },
+    "HTML5",
+    "CSS3",
+    "Tailwind CSS",
+    "Angular",
   ],
   "Database & Tools": [
-    { name: "MySQL", color: "bg-blue-700" },
-    { name: "PostgreSQL", color: "bg-blue-800" },
-    { name: "Git", color: "bg-orange-500" },
-    { name: "GitHub", color: "bg-gray-700" },
-    { name: "Maven", color: "bg-red-500" },
-    { name: "Postman", color: "bg-orange-600" },
+    "MySQL",
+    "PostgreSQL",
+    "Git",
+    "GitHub",
+    "Maven",
+    "Postman",
   ],
   "Development": [
-    { name: "RESTful APIs", color: "bg-purple-600" },
-    { name: "Agile", color: "bg-indigo-600" },
-    { name: "Problem Solving", color: "bg-emerald-600" },
-    { name: "Teamwork", color: "bg-teal-600" },
+    "RESTful APIs",
+    "Agile",
+    "Problem Solving",
+    "Teamwork",
   ],
 };
 
@@ -56,30 +55,27 @@ export const Skills = () => {
             Technologies and tools I work with
           </p>
 
-          <div className="max-w-6xl mx-auto space-y-12">
+          <div className="max-w-5xl mx-auto space-y-8">
             {Object.entries(skillsData).map(([category, skills], categoryIndex) => (
               <motion.div
                 key={category}
-                initial={{ opacity: 0, x: categoryIndex % 2 === 0 ? -20 : 20 }}
-                animate={inView ? { opacity: 1, x: 0 } : {}}
+                initial={{ opacity: 0, y: 20 }}
+                animate={inView ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.5, delay: categoryIndex * 0.1 }}
               >
-                <h3 className="text-2xl font-semibold mb-6">{category}</h3>
+                <h3 className="text-xl md:text-2xl font-semibold mb-4">
+                  {category}
+                </h3>
                 <div className="flex flex-wrap gap-3">
                   {skills.map((skill, index) => (
                     <motion.div
-                      key={skill.name}
+                      key={skill}
                       initial={{ opacity: 0, scale: 0.8 }}
                       animate={inView ? { opacity: 1, scale: 1 } : {}}
                       transition={{ duration: 0.3, delay: categoryIndex * 0.1 + index * 0.05 }}
-                      whileHover={{ scale: 1.05 }}
+                      className="px-5 py-2.5 bg-card/80 backdrop-blur-sm border border-border rounded-full text-sm md:text-base font-medium hover:bg-primary/10 hover:border-primary/50 transition-all duration-300 cursor-default"
                     >
-                      <Badge
-                        variant="secondary"
-                        className="px-4 py-2 text-base font-medium cursor-default shadow-sm hover:shadow-md transition-shadow"
-                      >
-                        {skill.name}
-                      </Badge>
+                      {skill}
                     </motion.div>
                   ))}
                 </div>

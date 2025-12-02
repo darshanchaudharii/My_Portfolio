@@ -42,16 +42,16 @@ export const About = () => {
           <Card className="p-8 shadow-elegant gradient-card">
             <div className="space-y-6">
               <p className="text-lg leading-relaxed">
-                Recent Electronics Engineering graduate and Full Stack Developer with 6+ months of 
-                experience at TRON Softech, building scalable web applications using Spring Boot, 
-                React.js, and MySQL. I've contributed to real-time projects, including an ERP System 
+                Recent Electronics Engineering graduate and Full Stack Developer with 6+ months of
+                experience at TRON Softech, building scalable web applications using Spring Boot,
+                React.js, and MySQL. I've contributed to real-time projects, including an ERP System
                 and an Online Exam Assessment Platform.
               </p>
-              
+
               <p className="text-lg leading-relaxed">
-                Skilled in Java, JavaScript, RESTful APIs, and SQL databases, I'm passionate about 
-                modern software engineering, cloud-based architectures, and agile development. 
-                I thrive in collaborative environments and am always eager to learn new technologies 
+                Skilled in Java, JavaScript, RESTful APIs, and SQL databases, I'm passionate about
+                modern software engineering, cloud-based architectures, and agile development.
+                I thrive in collaborative environments and am always eager to learn new technologies
                 and best practices.
               </p>
 
@@ -68,8 +68,8 @@ export const About = () => {
                 </div>
                 <div className="flex items-center gap-3">
                   <Mail className="h-5 w-5 text-primary flex-shrink-0" />
-                  <a href="mailto:darshanchaudhari4998@gmail.com" className="hover:text-primary transition-colors truncate">
-                    darshanchaudhari4998@gmail.com
+                  <a href="mailto:chaudharidarshan155@gmail.com" className="hover:text-primary transition-colors truncate">
+                    chaudharidarshan155@gmail.com
                   </a>
                 </div>
               </div>
